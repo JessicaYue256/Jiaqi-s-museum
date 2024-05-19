@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiaqi's Personal Gallery - Content</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Jiaqi's Personal Gallery</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="content.html#about">About</a></li>
+                <li><a href="content.html#portfolio">Portfolio</a></li>
+                <li><a href="content.html#blog">Blog</a></li>
+                <li><a href="content.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hello, I'm Jiaqi, an art enthusiast. I like European paintings from the Renaissance to modern times, traditional Chinese paintings and calligraphy, and classical music. Thank you for visiting my homepage.</p>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="picture1.webp" alt="Artwork 1">
+                    <p>Description of Artwork 1</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="picture2.webp" alt="Artwork 2">
+                    <p>Description of Artwork 2</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="picture3.webp" alt="Artwork 3">
+                    <p>Description of Artwork 3</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="picture4.webp" alt="Artwork 4">
+                    <p>Description of Artwork 4</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog">
+            <h2>Blog</h2>
+            <article>
+                <h3>Blog Post Title</h3>
+                <p>Summary of the blog post.</p>
+                <a href="blog-post.html">Read More</a>
+            </article>
+            <!-- Repeat for more blog posts -->
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <form action="submit-form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jiaqi's Personal Gallery. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="content.html#about">About</a></li>
+                <li><a href="content.html#portfolio">Portfolio</a></li>
+                <li><a href="content.html#blog">Blog</a></li>
+                <li><a href="content.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
